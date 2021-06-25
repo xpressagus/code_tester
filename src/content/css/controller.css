@@ -1,0 +1,118 @@
+.controll-display__controller-container{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+/******TYPE SELECTION ******/
+
+/*.controller__type-selection select *{
+    color: black;
+}
+*/
+.controller__type-selection{
+    margin-top: 10px;
+}
+.controller__type-selection select{
+    background: #232528;
+    height: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+.controller__type-selection select option {
+    border: 0;
+}
+.controller__type-selection .label{
+    padding-left: 10px;
+    margin-bottom: 10px
+}
+/******TYPE SELECTION ******/
+
+/******MEDIA LIST******/
+.controller__media-list{
+    margin-top: 10px;
+
+}
+.media-list-container{
+    height: 350px;
+    /*padding: 10px;
+    background-color: #232528;*/
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+.media-list{
+    background-color: #232528;
+    padding: 10px 0px 0px 10px;
+    border-radius: 10px;
+}
+.media-item{
+    position: relative;
+    background-color: black;
+    float: left;
+    width: 31.6%;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.media-item__container{
+    position: absolute;
+}
+.media-item__text{
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+/******END MEDIA LIST******/
+
+/******COSTUME SCROLLBAR********/
+.controller__media-action{
+    margin-top: 10px;
+}
+.controller__media-action form *{
+    color: black;
+}
+
+.media-list-container::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+}
+    
+.media-list-container::-webkit-scrollbar-thumb {
+        background-color:#808080;
+}
+
+.media-action__next-btn{
+    margin-left: auto;
+}
+.media-action__prev-btn{
+    margin-right: auto;
+}
+.media-action-container .btn{
+    background-color: transparent;
+    transition: .5s background-color;
+    color: white;
+    border: 1px solid #434343;
+    border-radius: 50px;
+    height: 40px;
+    width: 90px;
+    font: bold 15px arial, sans-serif;
+    text-shadow: none;
+}
+.media-action-container .btn:hover{
+    background-color: #434343 ;
+    transition: .5s background-color;
+}
+/*
+::-webkit-scrollbar {
+    width: 50px;
+    height: 50px;
+}
+*/

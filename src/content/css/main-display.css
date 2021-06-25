@@ -1,0 +1,20 @@
+/*.app__main-display{
+    
+}
+*/
+.main-display__preview-container{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.preview-box{
+    height: 100%;
+    width: 100%;
+}
+
+.default-preview{
+    background-color:#434343 ;
+    height: 100%;
+    width: 100%;
+}
